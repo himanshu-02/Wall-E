@@ -92,7 +92,6 @@ cd Wall-E
 ### Step 2 : Installing the necessary prerequisites.
 Run the following commands for a quick install on Linux-based systems:
 ```sh
-mkdir ~/esp 
 cd $HOME/Wall-E
 sudo chmod +x wall_e_install.sh
 ./wall_e_install.sh
@@ -109,7 +108,8 @@ sudo chmod +x wall_e_install.sh
 
 ### STEP 2 : Opening The Terminal
 Open the terminal by pressing command+space and then typing terminal.
-Note: If you're an M1 mac os user refer this [link](https://youtu.be/9W8rTTE1WEA) to open the terminal.
+
+**Note:** If you're an M1 mac os user refer this [link](https://youtu.be/9W8rTTE1WEA) to open the terminal.
 
 ### STEP 3 : Installing the Pre-Requisites 
 Copy this command in the command in the terminal , then press return 
@@ -148,8 +148,7 @@ Now you are ready to prepare your application for ESP32.
 * For Linux/MacOS -
 ```sh
 cd ~/esp
-cd ~/esp-idf/examples/get-started/hello_world
-cp -r ~/esp-idf/examples/get-started/hello_world ~/esp
+cp -r ~/esp/esp-idf/examples/get-started/hello_world .
 ls 
 ```
 <p align="center">
